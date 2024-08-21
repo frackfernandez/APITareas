@@ -1,14 +1,14 @@
 # ApiTareas
 
-ApiTareas es un proyecto desarrollado para gestionar tareas. Esta soluciÛn, basada en una API RESTful, fue implementada utilizando ASP.NET Core y Entity Framework Core, aplicando los principios de arquitectura limpia.
+ApiTareas es un proyecto desarrollado para gestionar tareas. Esta soluci√≥n, basada en una API REST, fue implementada utilizando ASP.NET Core y Entity Framework Core, aplicando los principios de arquitectura limpia.
 
 ## Arquitectura
 
-El proyecto est· estructurado en diferentes capas y bibliotecas de clases que interact˙an entre sÌ para manejar las funciones de la aplicaciÛn. A continuaciÛn, se detallan los componentes principales.
+El proyecto est√° estructurado en diferentes capas y bibliotecas de clases que interact√∫an entre s√≠ para manejar las funciones de la aplicaci√≥n. A continuaci√≥n, se detallan los componentes principales.
 
 ![Diagrama de la arquitectura](arquitectura.png)
 
-## InstalaciÛn
+## Instalaci√≥n
 
 ### Requisitos basicos
 
@@ -28,9 +28,9 @@ El proyecto est· estructurado en diferentes capas y bibliotecas de clases que in
     dotnet restore
     ```
 
-3. **Configurar la cadena de conexiÛn de la base de datos:**
+3. **Configurar la cadena de conexi√≥n de la base de datos:**
 
-    Abre el archivo `appsettings.json` en la carpeta `API` y actualiza la cadena de conexiÛn.
+    Abre el archivo `appsettings.json` en la carpeta `API` y actualiza la cadena de conexi√≥n.
 
 4. **Aplicar migraciones y actualiza la base de datos:**
 
@@ -40,15 +40,15 @@ El proyecto est· estructurado en diferentes capas y bibliotecas de clases que in
     dotnet ef database update --project Repository
     ```
 
-    Alternativamente, si prefieres ejecutar la migraciÛn manualmente en tu PC, puedes utilizar los siguientes comandos en la consola del administrador de paquetes o en la terminal de comandos:
+    Alternativamente, si prefieres ejecutar la migraci√≥n manualmente en tu PC, puedes utilizar los siguientes comandos en la consola del administrador de paquetes o en la terminal de comandos:
 
-    Crear la migraciÛn:
+    Crear la migraci√≥n:
 
     ```bash
     Add-Migration Inicial -Project Repository
     ```
 
-    Aplicar la migraciÛn a la base de datos:
+    Aplicar la migraci√≥n a la base de datos:
 
     ```bash
     Update-Database -Project Repository
@@ -60,8 +60,8 @@ El proyecto est· estructurado en diferentes capas y bibliotecas de clases que in
 
 ## Contribuciones
 
-Se agradecen las contribuciones. Por favor, sigue el proceso habitual en GitHub para realizar un fork, crea una rama, haz los cambios y envÌa un pull request.
+Se agradecen las contribuciones. Por favor, sigue el proceso habitual en GitHub para realizar un fork, crea una rama, haz los cambios y env√≠a un pull request.
 
 ## Licencia
 
-Este proyecto est· bajo la [MIT License](https://opensource.org/licenses/MIT).
+Este proyecto est√° bajo la [MIT License](https://opensource.org/licenses/MIT).
